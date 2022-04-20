@@ -1747,7 +1747,7 @@
       }
 
       if (this.options.selectedTextFormat === 'static') {
-        titleFragment = generateOption.text.call(this, { text: this.options.placeholder }, true);
+        titleFragment = generateOption.text.call(this, { content: this.options.placeholder }, true);
       } else {
         showCount = this.multiple && this.options.selectedTextFormat.indexOf('count') !== -1 && selectedCount > 0;
 
